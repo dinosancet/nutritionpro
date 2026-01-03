@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labor-Analyse Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Labor-Datenbank <span class="badge">Lokal</span></h1>
+            <div class="search-section">
+                <input type="text" id="food-input" placeholder="Lebensmittel eingeben...">
+                <button id="search-btn">Analyse</button>
+            </div>
+            <div id="suggestions" class="suggestions-box hidden"></div>
+        </header>
+
+        <main id="results" class="hidden">
+            <h2 id="food-title"></h2>
+            <div class="grid">
+                <section class="card"><h3>Makros</h3><table id="table-macros"></table></section>
+                <section class="card"><h3>Vitamine</h3><table id="table-vitamins"></table></section>
+                <section class="card"><h3>Mineralstoffe</h3><table id="table-minerals"></table></section>
+                <section class="card"><h3>Aminosäuren</h3><table id="table-aminos"></table></section>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
