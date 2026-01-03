@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Ei (Hühnerei, frisch)",
+        "macros": { "Energie": "155 kcal", "Eiweiß": "12.6 g", "Fett": "10.6 g" },
+        "vitamins": { "Vitamin A": "140 µg", "Vitamin D": "2.0 µg", "Vitamin B12": "1.1 µg" },
+        "minerals": { "Calcium": "50 mg", "Eisen": "1.2 mg" },
+        "aminos": { "Tryptophan": "0.17 g", "Leucin": "1.08 g", "Lysin": "0.91 g" }
+    }
+]
